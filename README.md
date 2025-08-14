@@ -6,5 +6,12 @@
 - **反反调试**：对抗游戏环境中的 **EAC**、**BattleEye** 检测机制  
 - **动态策略控制**：通过 `HvInterface.dll` 导出 API 控制所有行为
 
+默认启用：
+   - 隐藏调试断点  
+   - VEH/UEF 异常绕过  
+   - EPT 内存访问控制  
+   - 调试窗口行为保护 
 
+![游戏测试示意图](84CDA14A62EBEDC63BAC12F9D0CA05C7.png)
 
+![游戏测试示意图](EC02FAD6964DCCBDD04451542041CE8A.jpg)
