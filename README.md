@@ -8,10 +8,22 @@
 
 默认启用：
    - 隐藏调试断点  
-   - VEH/UEF 异常绕过  
+   - 游戏抛异常过滤  
    - EPT 内存访问控制  
    - 调试窗口行为保护 
 
 ![游戏测试示意图](84CDA14A62EBEDC63BAC12F9D0CA05C7.png)
 
 ![游戏测试示意图](EC02FAD6964DCCBDD04451542041CE8A.jpg)
+
+## 软件界面
+![HvGuardDbg 前端界面（Qt Widget）](5C5BEF692B3791B5DDFFB8E50F483DBD.png)
+
+虚拟化参考项目：
+
+HyperDbg：https://github.com/HyperDbg/HyperDbg
+
+hv：https://github.com/jonomango/hv
+
+ps:调试软件不会再次更新 ---滥用检测
+
